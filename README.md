@@ -1,4 +1,4 @@
-# ChatBot
+<!-- # ChatBot
 
 
 ## Complete RAG Flow from Dataset to Response
@@ -51,4 +51,23 @@
 11. Response Processing
     • Chain may post-process the response
     • Returns final answer to user
-    `
+    ` -->
+
+
+# ChatBot
+
+## Complete RAG Flow from Dataset to Response
+
+---
+
+### Phase 1
+
+```mermaid
+flowchart TD
+    A[Raw Dataset<br>(PDFs, docs, websites, etc.)]
+    B[Document Loader<br>• Loads and reads different file formats<br>• Extracts raw text content]
+    C[Text Splitter<br>• Breaks documents into manageable chunks<br>• Handles overlaps to maintain context]
+    D[Embedding Model<br>• Converts text chunks into vector embeddings<br>• Each chunk becomes a numerical vector]
+    E[Vector Database<br>• Stores embeddings with metadata<br>• Creates searchable index]
+
+    A --> B --> C --> D --> E
