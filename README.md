@@ -22,11 +22,12 @@
 5. Vector Database
    • Stores embeddings with metadata
    • Creates searchable index
-   `
+   ```
 
 ### Phase 2
 
-`6. User Query
+```
+6. User Query
    • User asks a question
    ↓
 7. Chain (Orchestrator)
