@@ -5,7 +5,8 @@
 
 ### Phase 1
 
-```1. Raw Dataset (PDFs, docs, websites, etc.)
+```
+1. Raw Dataset (PDFs, docs, websites, etc.)
    ↓
 2. Document Loader
    • Loads and reads different file formats
@@ -22,7 +23,8 @@
 5. Vector Database
    • Stores embeddings with metadata
    • Creates searchable index
-   ```
+
+```
 
 ### Phase 2
 
@@ -52,4 +54,5 @@
 11. Response Processing
     • Chain may post-process the response
     • Returns final answer to user
-    ```
+    
+```
